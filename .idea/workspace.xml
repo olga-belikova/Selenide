@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9db2899b-f179-4232-879c-20a34c7d7c02" name="Changes" comment="" />
+    <list default="true" id="9db2899b-f179-4232-879c-20a34c7d7c02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/PopupsCardDeliveryFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/PopupsCardDeliveryFormTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,7 @@
       <recent name="ru.netology" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PopupsCardDeliveryFormTest.shouldSendFormDirectInput">
+  <component name="RunManager" selected="Gradle.PopupsCardDeliveryFormTest">
     <configuration name="CardDeliveryFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -97,6 +100,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PopupsCardDeliveryFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.PopupsCardDeliveryFormTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PopupsCardDeliveryFormTest.shouldSendFormDirectInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PopupsCardDeliveryFormTest" />
         <item itemvalue="Gradle.PopupsCardDeliveryFormTest.shouldSendFormDirectInput" />
         <item itemvalue="Gradle.CardDeliveryFormTest" />
         <item itemvalue="Gradle.CardDeliveryFormTest.shouldSendFormDirectInput" />

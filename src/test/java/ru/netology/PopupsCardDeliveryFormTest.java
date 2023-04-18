@@ -24,15 +24,22 @@ public class PopupsCardDeliveryFormTest {
         open("http://localhost:9999/");
         $("[data-test-id='city'] input").setValue("ив");
         $x("//span[contains(text(), 'Иваново')]").click();
-        String deliveryDate = generateDate(27, "dd.MM.yyyy");
-        String day = generateDate(27, "dd");
-        String month = generateDate(27, "MM");
+        String deliveryDate = generateDate(17, "dd.MM.yyyy");
+        String day = generateDate(17, "dd");
+        String month = generateDate(17, "MM");
         String currentMonth = generateDate(0, "MM");
         $(".icon_name_calendar").click();
         if(!month.equals(currentMonth)) {
             $("[data-step='1']").click();
         }
-        $$(".calendar__day").findBy(Condition.text(day)).click();
+        String day1;
+        if (day.startsWith(String.valueOf(0))) {
+            day1 = day.substring(1);
+        }
+        else {
+            day1 = day;
+        }
+        $$(".calendar__day").findBy(Condition.text(day1)).click();
         $("[data-test-id='name'] input").setValue("Михаил Салтыков-Щедрин");
         $("[data-test-id='phone'] input").setValue("+71234567890");
         $("[data-test-id='agreement'] span").click();
